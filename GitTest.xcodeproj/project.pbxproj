@@ -21,6 +21,7 @@
 		674DF65518C364EA0046822F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674DF63718C364E90046822F /* UIKit.framework */; };
 		674DF65D18C364EA0046822F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 674DF65B18C364EA0046822F /* InfoPlist.strings */; };
 		674DF65F18C364EA0046822F /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674DF65E18C364EA0046822F /* GitTestTests.m */; };
+		674DF66A18C367020046822F /* TOGTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 674DF66918C367020046822F /* TOGTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		674DF65A18C364EA0046822F /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		674DF65C18C364EA0046822F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		674DF65E18C364EA0046822F /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		674DF66818C367020046822F /* TOGTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOGTestClass.h; sourceTree = "<group>"; };
+		674DF66918C367020046822F /* TOGTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOGTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		674DF62718C364E90046822F = {
 			isa = PBXGroup;
 			children = (
+				674DF66818C367020046822F /* TOGTestClass.h */,
+				674DF66918C367020046822F /* TOGTestClass.m */,
 				674DF63918C364E90046822F /* GitTest */,
 				674DF65818C364EA0046822F /* GitTestTests */,
 				674DF63218C364E90046822F /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				674DF64A18C364EA0046822F /* TOGViewController.m in Sources */,
+				674DF66A18C367020046822F /* TOGTestClass.m in Sources */,
 				674DF64018C364E90046822F /* main.m in Sources */,
 				674DF64418C364E90046822F /* TOGAppDelegate.m in Sources */,
 			);
